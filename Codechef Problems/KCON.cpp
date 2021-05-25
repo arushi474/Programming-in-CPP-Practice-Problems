@@ -1,8 +1,8 @@
-/*You are given an array A with size N (indexed from 0) and an integer K. Let's define another array B with size N · K as the array that's formed by concatenating K copies of array A.
+/*You are given an array A with size N (indexed from 0) and an integer K. Let's define another array B with size N Â· K as the array that's formed by concatenating K copies of array A.
 
 For example, if A = {1, 2} and K = 3, then B = {1, 2, 1, 2, 1, 2}.
 
-You have to find the maximum subarray sum of the array B. Fomally, you should compute the maximum value of Bi + Bi+1 + Bi+2 + ... + Bj, where 0 = i = j < N · K.
+You have to find the maximum subarray sum of the array B. Fomally, you should compute the maximum value of Bi + Bi+1 + Bi+2 + ... + Bj, where 0 = i = j < N Â· K.
 
 Input
 The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
@@ -17,7 +17,7 @@ Constraints
 1 = K = 105
 -106 = Ai = 106 for each valid i
 Subtasks
-Subtask #1 (18 points): N · K = 105
+Subtask #1 (18 points): N Â· K = 105
 
 Subtask #2 (82 points): original constraints
 
