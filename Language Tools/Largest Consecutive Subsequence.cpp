@@ -1,6 +1,5 @@
 /*
 Longest Consecutive Sequence
-Send Feedback
 You are given an array of unique integers that contain numbers in random order. 
 You have to find the longest possible sequence of consecutive numbers using the numbers from given array.
 You need to return the output array which contains starting and ending element. 
