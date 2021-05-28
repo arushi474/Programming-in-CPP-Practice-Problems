@@ -64,7 +64,7 @@ int main(){
                 end=mid-1;
             }
          
-            mid=(start+end)/2;
+            mid=start+(end-start)/2; // Since end and start is of ll type hence end+start can exceed it's range hence it's recommended to use mid=start+(end-start)/2 instead of mid=(start+end)/2
           
         }
         cout<<mid<<endl;
